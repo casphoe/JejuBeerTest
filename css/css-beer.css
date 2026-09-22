@@ -176,19 +176,19 @@ a {
 }
 
 .section-banner-1 {
-    background-image: url('../images/?뱀뀡諛곕꼫1.png');
+    background-image: url('../images/섹션배너1.png');
 }
 
 .section-banner-2 {
-    background-image: url('../images/?뱀뀡諛곕꼫2.png');
+    background-image: url('../images/섹션배너2.png');
 }
 
 .section-banner-3 {
-    background-image: url('../images/?뱀뀡諛곕꼫3.png');
+    background-image: url('../images/섹션배너3.png');
 }
 
 .section-banner-4 {
-    background-image: url('../images/?뱀뀡諛곕꼫4.png');
+    background-image: url('../images/섹션배너4.png');
 }
 
 .section-banner-1__logo img {
@@ -298,19 +298,19 @@ a {
 }
 
 .mobile-section-banner .section-banner-1 {
-    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+    background-image: url('../images/모바일섹션배너1.png');
 }
 
 .mobile-section-banner .section-banner-2 {
-    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+    background-image: url('../images/모바일섹션배너2.png');
 }
 
 .mobile-section-banner .section-banner-3 {
-    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+    background-image: url('../images/모바일섹션배너3.png');
 }
 
 .mobile-section-banner .section-banner-4 {
-    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+    background-image: url('../images/모바일섹션배너4.png');
 }
 
 .mobile-section-banner .section-banner-1__content,
