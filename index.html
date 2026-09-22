@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>박상원의 제주맥주 모작</title>
+
+	<!-- 테일윈드 불러오기 -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- 폰트어썸 불러오기 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- 공통 css, js 불러오기 -->
+	<link rel="stylesheet" href="css-beer.css">
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+	<!-- pc 탑바 구현 시작 -->
+	<header class="pc-top-bar bg-white text-white">
+		<div class="top-bar__wrap-1 con mx-auto h-[154px] flex">
+			<div class="flex-1"></div>
+			<div class="flex-1">
+				<a href="#" class="logo h-full flex items-center justify-center">
+					<img src="images/제주맥주 메인로고.png" alt="">
+				</a>
+			</div>
+			<div class="flex-1">
+				<div class="menu-widget-group flex flex-col h-full justify-center ">
+					<nav class="login-widget flex justify-end">
+						<ul class="flex">
+							<li><a href="#">LOGIN</a></li>
+							<li><a href="#">JOIN</a></li>
+							<li><a href="#">CART</a></li>
+							<li><a href="#">RECRUIT</a></li>
+						</ul>
+					</nav>
+					<div class="btn-widget flex justify-end mt-[20px] gap-x-[10px] mr-[10px]">
+						<a href="#">
+							<span>
+								논알콜 제주누보 구매
+							</span>
+						</a>
+						<a href="#">
+							<span>
+								양조장 예약
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-bar__wrap-2 con mx-auto">
+			<div class="menu-box-1 h-[40px] flex justify-center">
+				<nav class="top-bar-menu-1">
+					<ul class="flex h-full ">
+						<li><a href="#">BARREL SERIES</a></li>
+						<li><a href="#">SUPPORTERS</a></li>
+						<li><a href="#">JEJU BEER LIFE</a></li>
+						<li><a href="#">SHOP</a></li>
+						<li><a href="#">BREWERY</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="bottom-bar h-[20px]"></div>
+		</div>
+	</header>
+	<!-- pc 탑바 구현 끝 -->
+
+	<!-- 모바일 탑바 구현 시작  -->
+	<header class="mobile-top-bar bg-white text-white h-[50px]">
+		<div class="con flex h-full">
+			<a href="#" class="mobile-top-bar__logo flex items-center px-[5px] flex-1">
+				<img src="images/제주맥주 모바일로고.png" alt="">
+			</a>
+			<div class="mobile-top-bar__btn-1 cursor-pointer flex justify-end flex-1 px-[7px]">
+				<span class="flex items-center h-full ">
+					<i class="fa-solid fa-bars"></i>
+				</span>
+			</div>
+		</div>
+	</header>
+	<!-- 모바일 탑바 구현 끝 -->
+
+	<!-- pc 섹션 구현 시작 -->
+	<section class="pc-section-video">
+		<video src="video/pc 제주맥주 영상.mp4" autoplay loop muted></video>
+	</section>
+	<div class="pc-section-banner">
+		<section class="section-banner section-banner-1">
+			<div class="con mx-auto h-full">
+				<div class="h-[70px]"></div>
+				<div class="section-banner-1__logo flex justify-center">
+					<img src="images/섹션로고1.png" alt="">
+				</div>
+				<div class="h-[30px]"></div>
+				<div class="flex justify-center">
+					<div class="section-banner-1__img-box ml-[-300px] mr-[40px]">
+						<img src="images/맥주사진1.png" alt="">
+					</div>
+					<div class="section-banner-1__text-box flex flex-col justify-center text-white">
+						<span>
+							<strong>제주라거</strong>는 맥주의 기본 4대 원료를 사용하는
+						</span>
+						<span>
+							독일 맥주 순수령 원칙을 지킨
+						</span>
+						<span>
+							제주 하얀 파도의 시원함과
+						</span>
+						<span>
+							부드러움을 닮은 올 몰트 라거입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[70px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-2">
+			<div class="con mx-auto h-full">
+				<div class="h-[110px]"></div>
+				<div class="section-banner-2__logo flex justify-center">
+					<img src="images/섹션로고2.png" alt="">
+				</div>
+				<div class="h-[50px]"></div>
+				<div class="flex justify-center">
+					<div class="section-banner-2__img-box ml-[-170px] mr-[30px] ">
+						<img src="images/맥주사진2.png" alt="">
+					</div>
+					<div class="section-banner-2__text-box flex flex-col justify-center text-white">
+						<span>
+							<strong>제주 위트 에일</strong>은 제주 감귤 껍질의 상큼함과 섬세한 꽃 향,
+						</span>
+						<span>
+							입 안 가득 부드럽게 퍼지는 시트러스향이 만나
+						</span>
+						<span>
+							산뜻한 끝 맛을 선사하는 밀맥주입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[70px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-3">
+			<div class="con mx-auto h-full">
+				<div class="h-[70px]"></div>
+				<div class="section-banner-3__logo flex justify-center">
+					<img src="images/섹션로고3.png" alt="">
+				</div>
+				<div class="h-[50px]"></div>
+				<div class="flex justify-center">
+					<div class="section-banner-3__img-box ml-[-20px] mr-[30px]">
+						<img src="images/맥주사진3.png" alt="">
+					</div>
+					<div class="section-banner-3__text-box flex flex-col justify-center text-white">
+						<span>
+							<strong>제주 펠롱 에일</strong>은 반딧불이 반짝이는 곶자왈에서 영감을 받아 탄생하였습니다.
+						</span>
+						<span>
+							다양하고 개성있는 홉들을 블렌딩하여
+						</span>
+						<span>
+							시트러스 아로마와 진한 맥아의 맛이 어우러져
+						</span>
+						<span>
+							풍부한 풍미를 선사하는 페일에일 맥주입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[70px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-4">
+			<div class="con mx-auto h-full">
+				<div class="h-[70px]"></div>
+				<div class="section-banner-4__logo flex justify-center">
+					<img src="images/섹션로고4.png" alt="">
+				</div>
+				<div class="h-[50px]"></div>
+				<div class="flex justify-center">
+					<div class="section-banner-4__img-box ml-[-70px] mr-[30px]">
+						<img src="images/맥주사진4.png" alt="">
+					</div>
+					<div class="section-banner-4__text-box flex flex-col justify-center text-white">
+						<span>
+							<strong>제주 거멍 에일</strong>은제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,
+						</span>
+						<span>
+							제주 흑보리와 초콜릿 밀로 완성된 은은한 달큰함과
+						</span>
+						<span>
+							경쾌한 풍미를 자아내는 흑맥주입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[70px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-5">
+			<div class="con mx-auto">
+				<div class="h-[56px]"></div>
+				<div class="section-banner-5__main-text">
+					<p>
+						제주맥주는
+					</p>
+					<p>
+						<strong>전국 편의점 및 대형마트</strong>에서 만나보실 수 있습니다.
+					</p>
+				</div>
+				<div class="h-[30px]"></div>
+				<div class="rolling-banner flex justify-center gap-x-[5px]">
+					<div><img src="images/롤링배너1.jpg" alt=""></div>
+					<div><img src="images/롤링배너2.jpg" alt=""></div>
+					<div><img src="images/롤링배너3.jpg" alt=""></div>
+					<div><img src="images/롤링배너4.jpg" alt=""></div>
+					<div><img src="images/롤링배너5.jpg" alt=""></div>
+					<div><img src="images/롤링배너6.jpg" alt=""></div>
+				</div>
+				<div></div>
+			</div>
+		</section>
+	</div>
+	<!-- pc 섹션 구현 끝 -->
+
+	<!-- 모바일 섹션 구현 시작 -->
+	<section class="mobile-section-video">
+		<video src="video/모바일 제주맥주 영상.mp4" autoplay loop muted></video>
+	</section>
+	<div class="mobile-section-banner">
+		<section class="section-banner section-banner-1">
+			<div class="con mx-auto h-full">
+				<div class="h-[50px]"></div>
+				<div class="section-banner-1__logo flex justify-center">
+					<img src="images/섹션로고1.png" alt="">
+				</div>
+				<div class="flex flex-col items-center justify-center">
+					<div class="section-banner-1__img-box ml-[-40px] mr-[30px]">
+						<img src="images/맥주사진1.png" alt="">
+					</div>
+					<div class="section-banner-1__text-box flex flex-col items-center justify-center text-white">
+						<span>
+							<strong>제주라거</strong>는 맥주의 기본 4대 원료를 사용하는
+						</span>
+						<span>
+							독일 맥주 순수령 원칙을 지킨
+						</span>
+						<span>
+							제주 하얀 파도의 시원함과
+						</span>
+						<span>
+							부드러움을 닮은 올 몰트 라거입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[50px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-2">
+			<div class="con mx-auto h-full">
+				<div class="h-[50px]"></div>
+				<div class="section-banner-2__logo flex justify-center">
+					<img src="images/섹션로고2.png" alt="">
+				</div>
+				<div class="flex flex-col items-center justify-center">
+					<div class="section-banner-2__img-box ml-[-40px] mr-[30px]">
+						<img src="images/맥주사진2.png" alt="">
+					</div>
+					<div class="section-banner-2__text-box flex flex-col items-center justify-center text-white">
+						<span>
+							<strong>제주 위트 에일</strong>은 제주 감귤 껍질의 상큼함과 섬세한 꽃 향,
+						</span>
+						<span>
+							입 안 가득 부드럽게 퍼지는 시트러스향이 만나
+						</span>
+						<span>
+							산뜻한 끝 맛을 선사하는 밀맥주입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[50px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-3">
+			<div class="con mx-auto h-full">
+				<div class="h-[50px]"></div>
+				<div class="section-banner-3__logo flex justify-center">
+					<img src="images/섹션로고3.png" alt="">
+				</div>
+				<div class="h-[50px]"></div>
+				<div class="flex flex-col items-center justify-center">
+					<div class="section-banner-3__img-box ml-[-40px] mr-[30px]">
+						<img src="images/맥주사진3.png" alt="">
+					</div>
+					<div class="section-banner-3__text-box flex flex-col items-center justify-center text-white">
+						<span>
+							<strong>제주 펠롱 에일</strong>은 반딧불이 반짝이는 곶자왈에서 영감을 받아 탄생하였습니다.
+						</span>
+						<span>
+							다양하고 개성있는 홉들을 블렌딩하여
+						</span>
+						<span>
+							시트러스 아로마와 진한 맥아의 맛이 어우러져
+						</span>
+						<span>
+							풍부한 풍미를 선사하는 페일에일 맥주입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[50px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-4">
+			<div class="con mx-auto h-full">
+				<div class="h-[50px]"></div>
+				<div class="section-banner-4__logo flex justify-center">
+					<img src="images/섹션로고4.png" alt="">
+				</div>
+				<div class="flex flex-col items-center justify-center">
+					<div class="section-banner-4__img-box ml-[-40px] mr-[30px]">
+						<img src="images/맥주사진4.png" alt="">
+					</div>
+					<div class="section-banner-4__text-box flex flex-col items-center justify-center text-white">
+						<span>
+							<strong>제주 거멍 에일</strong>은제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,
+						</span>
+						<span>
+							제주 흑보리와 초콜릿 밀로 완성된 은은한 달큰함과
+						</span>
+						<span>
+							경쾌한 풍미를 자아내는 흑맥주입니다.
+						</span>
+					</div>
+				</div>
+				<div class="h-[50px]"></div>
+			</div>
+		</section>
+		<section class="section-banner section-banner-5">
+			<div class="con mx-auto">
+				<div class="h-[56px]"></div>
+				<div class="section-banner-5__main-text">
+					<p>
+						제주맥주는
+					</p>
+					<p>
+						<strong>전국 편의점 및 대형마트</strong>에서 만나보실 수 있습니다.
+					</p>
+				</div>
+				<div class="h-[30px]"></div>
+				<div class="rolling-banner flex justify-center gap-x-[5px]">
+					<div class="flex-grid">
+						<div><img src="images/롤링배너1.jpg" alt=""></div>
+						<div><img src="images/롤링배너2.jpg" alt=""></div>
+						<div><img src="images/롤링배너3.jpg" alt=""></div>
+					</div>
+				</div>
+				<div></div>
+			</div>
+		</section>
+	</div>
+	<!-- 모바일 섹션 구현 끝 -->
+
+</body>
+
+</html>

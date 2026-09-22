@@ -1,0 +1,355 @@
+﻿/* ?고듃 */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'GmarketSansMedium', sans-serif;
+    background-color: #f3f3f3;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+a {
+    font-family: inherit;
+}
+
+.con {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pc-top-bar {
+    background-color: #ffffff;
+}
+
+.top-bar__wrap-1 {
+    display: flex;
+    align-items: center;
+    height: 154px;
+}
+
+.top-bar__wrap-1 > div {
+    flex: 1;
+}
+
+.top-bar__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 70.84px;
+}
+
+.top-bar__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-widget-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.login-widget ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.login-widget li a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-widget li:hover a {
+    color: #666;
+}
+
+.btn-widget {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-widget a span {
+    border-radius: 30px;
+    padding: 4px 20px;
+    font-size: 14px;
+    display: inline-block;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.btn-widget a:first-child span {
+    background-color: #ff7e6b;
+    border: 1px solid #ff7e6b;
+    color: #ffffff;
+}
+
+.btn-widget a:first-child:hover span {
+    background-color: #ffffff;
+    color: #ff7e6b;
+}
+
+.btn-widget a:last-child span {
+    background-color: #1ecad3;
+    border: 1px solid #1ecad3;
+    color: #ffffff;
+}
+
+.btn-widget a:last-child:hover span {
+    background-color: #10adb5;
+}
+
+.top-bar__wrap-2 {
+    padding-bottom: 10px;
+}
+
+.menu-box-1 {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar-menu-1 ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-menu-1 li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #55585b;
+    font-size: 14px;
+    padding: 0 40px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.top-bar-menu-1 li:hover a {
+    color: #888;
+}
+
+.pc-section-video video,
+.mobile-section-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pc-section-banner .section-banner {
+    min-height: 593px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-banner-1 {
+    background-image: url('../images/?뱀뀡諛곕꼫1.png');
+}
+
+.section-banner-2 {
+    background-image: url('../images/?뱀뀡諛곕꼫2.png');
+}
+
+.section-banner-3 {
+    background-image: url('../images/?뱀뀡諛곕꼫3.png');
+}
+
+.section-banner-4 {
+    background-image: url('../images/?뱀뀡諛곕꼫4.png');
+}
+
+.section-banner-1__logo img {
+    width: 187px;
+}
+
+.section-banner-2__logo img {
+    width: 340px;
+}
+
+.section-banner-3__logo img {
+    width: 323px;
+}
+
+.section-banner-4__logo img {
+    width: 311px;
+}
+
+.section-banner-1__content,
+.section-banner-2__content,
+.section-banner-3__content,
+.section-banner-4__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.section-banner-1__img-box img,
+.section-banner-2__img-box img,
+.section-banner-3__img-box img,
+.section-banner-4__img-box img {
+    width: 200px;
+}
+
+.section-banner-1__text-box span,
+.section-banner-2__text-box span,
+.section-banner-3__text-box span,
+.section-banner-4__text-box span {
+    display: block;
+    margin-top: 5px;
+    color: white;
+}
+
+.section-banner-5 {
+    min-height: 275px;
+}
+
+.section-banner-5__main-text {
+    text-align: center;
+    color: #1ecad3;
+    padding-top: 56px;
+}
+
+.section-banner-5__main-text p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.rolling-banner {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 30px 0;
+}
+
+.rolling-banner img {
+    width: 140px;
+}
+
+.mobile-top-bar {
+    display: none;
+    background-color: #ffffff;
+    height: 50px;
+}
+
+.mobile-top-bar__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.mobile-top-bar__logo img {
+    width: 104px;
+}
+
+.mobile-top-bar__btn-1 {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #1ecad3;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.mobile-section-video {
+    display: none;
+}
+
+.mobile-section-banner .section-banner-1,
+.mobile-section-banner .section-banner-2,
+.mobile-section-banner .section-banner-3,
+.mobile-section-banner .section-banner-4 {
+    min-height: 300px;
+}
+
+.mobile-section-banner .section-banner-1 {
+    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+}
+
+.mobile-section-banner .section-banner-2 {
+    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+}
+
+.mobile-section-banner .section-banner-3 {
+    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+}
+
+.mobile-section-banner .section-banner-4 {
+    background-image: url('../images/紐⑤컮?쇱꽮?섎같??.png');
+}
+
+.mobile-section-banner .section-banner-1__content,
+.mobile-section-banner .section-banner-2__content,
+.mobile-section-banner .section-banner-3__content,
+.mobile-section-banner .section-banner-4__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.mobile-section-banner .section-banner-1__text-box,
+.mobile-section-banner .section-banner-2__text-box,
+.mobile-section-banner .section-banner-3__text-box,
+.mobile-section-banner .section-banner-4__text-box {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .pc-top-bar,
+    .pc-section-video,
+    .pc-section-banner {
+        display: none;
+    }
+
+    .mobile-top-bar,
+    .mobile-section-video,
+    .mobile-section-banner {
+        display: block;
+    }
+}
+
+@media (max-width: 766px) {
+    .section-banner-5__main-text p {
+        font-size: 16px;
+    }
+}
+
